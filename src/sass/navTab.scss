@@ -1,0 +1,28 @@
+#navTab{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    margin: 0;
+    padding: 5px;
+    li{
+        float: left;
+        width: 25%;
+        text-align: center;
+        overflow: hidden;
+        span {
+            float: left;
+            width: 100%;
+        }
+        .icon {
+            float: left;
+            width: 100%;
+            svg {
+                width: 22px;
+                height: 22px;
+            }
+        }
+    }
+    .active {
+        color: #ef4040;
+    }
+}

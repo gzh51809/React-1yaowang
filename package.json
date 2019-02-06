@@ -5,10 +5,13 @@
   "dependencies": {
     "@babel/core": "7.1.6",
     "@svgr/webpack": "2.4.1",
+    "antd": "^3.13.1",
+    "antd-mobile": "^2.2.8",
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "9.0.0",
     "babel-jest": "23.6.0",
     "babel-loader": "8.0.4",
+    "babel-plugin-import": "^1.11.0",
     "babel-plugin-named-asset-import": "^0.3.0",
     "babel-preset-react-app": "^7.0.0",
     "bfj": "6.1.1",
@@ -44,7 +47,6 @@
     "react-dev-utils": "^7.0.1",
     "react-dom": "^16.7.0",
     "resolve": "1.8.1",
-    "sass-loader": "7.1.0",
     "style-loader": "0.23.0",
     "terser-webpack-plugin": "1.1.0",
     "url-loader": "1.1.1",
@@ -111,9 +113,20 @@
   "babel": {
     "presets": [
       "react-app"
+    ],
+    "plugins": [
+      [
+        "import",
+        {
+          "libraryName": "antd",
+          "style": "css"
+        }
+      ]
     ]
   },
   "devDependencies": {
-    "react-router-dom": "^4.3.1"
+    "node-sass": "^4.11.0",
+    "react-router-dom": "^4.3.1",
+    "sass-loader": "^7.1.0"
   }
 }
