@@ -1,0 +1,29 @@
+.selectList {
+    padding: 15px 0;
+    background-color: #fff;
+    ul {
+        width: 100%;
+        overflow: hidden;
+        margin-bottom: 0;
+        li {
+            float: left;
+            width: 20%;
+            a {
+                color: #000;
+                display: block;
+                width: 100%;
+                img {
+                    display: block;
+                    width: 44px;
+                    height: 44px;
+                    margin: 0 auto;
+                }
+                span {
+                    display: block;
+                    margin: 8px 0;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

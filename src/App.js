@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Route, Switch, withRouter } from "react-router-dom";
+import { Route, Switch, withRouter, Redirect } from "react-router-dom";
 import "./sass/reset.scss";
 
 import Home from "./components/Home";
@@ -44,12 +44,36 @@ class App extends Component {
     this.changeTab = this.changeTab.bind(this);
   }
 
+  componentDidMount() {
+    let path = this.props.location.pathname;
+    let idx = 0;
+    switch (path) {
+      case "/home":
+        idx = 0;
+        break;
+      case "/find":
+        idx = 1;
+        break;
+      case "/cart":
+        idx = 2;
+        break;
+      case "/mine":
+        idx = 3;
+        break;
+
+      default:
+        break;
+    }
+    this.setState({
+      activeIdx: idx
+    })
+  }
+
   changeTab(idx) {
     this.setState({
       activeIdx: idx
     });
-    this.props.history.push(this.state.links[idx].path)
-    console.log(this.state.links[idx].path);
+    this.props.history.push(this.state.links[idx].path);
   }
 
   render() {
@@ -60,14 +84,13 @@ class App extends Component {
           <Route path="/find" component={Find} />
           <Route path="/cart" component={Cart} />
           <Route path="/mine" component={Mine} />
-          <Route path="/" component={Home} />
+          <Redirect from="/" to="/home" />
         </Switch>
-
         <NavTab
           navs={this.state.links}
           idx={this.state.activeIdx}
           change={this.changeTab}
-        />
+        />{" "}
       </div>
     );
   }

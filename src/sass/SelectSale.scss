@@ -1,0 +1,35 @@
+.top {
+    overflow: hidden;
+    background-color: #fff;
+    margin-top: 10px;
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+    .left {
+        float: left;
+        padding: 13px 0;
+
+        img {
+            height: 20px;
+            padding: 0 5px;
+        }
+    }
+
+    .center {
+        float: left;
+        line-height: 50px;
+        padding-left: 10px;
+
+        span {
+            color: #f00;
+        }
+    }
+
+    .right {
+        float: right;
+        line-height: 50px;
+
+        a {
+            color: #666;
+        }
+    }
+}

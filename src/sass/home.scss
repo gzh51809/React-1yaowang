@@ -1,0 +1,41 @@
+.notice {
+    padding: 10px 14px;
+    overflow: hidden;
+    border-top: 1px solid #eee;
+    background-color: #fff;
+    margin-bottom: 5px;
+    img {
+        float: left;
+        height: 18px;
+        transform: translateY(3px);
+    }
+    .notices {
+        width: 260px;
+        height: 18px;
+        float: left;
+        padding-left: 8px;
+    }
+}
+.bottomList {
+    padding: 10px;
+    background-color: #fff;
+    margin-top: 10px;
+    .icon {
+        svg {
+            width: 20px;
+            height: 20px;
+            color: #f00;
+        }
+    }
+    .titles {
+        padding-left: 8px;
+        font-size: 16px;
+    }
+}
+.bottomTitle {
+    padding: 20px;
+    padding-bottom: 10px;
+    p {
+        text-align: center;
+    }
+}
