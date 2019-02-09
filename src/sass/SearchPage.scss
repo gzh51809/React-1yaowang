@@ -1,0 +1,65 @@
+.searchVal {
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #e7e7e7;
+    overflow: hidden;
+    line-height: 40px;
+    padding: 0 8px;
+    width: 100%;
+    overflow: hidden;
+
+    .back {
+        float: left;
+        padding: 0 10px;
+
+        .arror {
+            display: inline-block;
+            border: 2px solid #666;
+            border-right-color: #f9f9f9;
+            border-bottom-color: #f9f9f9;
+            width: 12px;
+            height: 12px;
+            transform: rotateZ(-45deg) translateY(1px);
+        }
+    }
+
+    .val {
+        float: left;
+        width: 75%;
+
+        input {
+            width: 100%;
+            border-radius: 5px;
+            font-size: 14px;
+            height: 14px;
+            padding: 16px 0;
+            padding-left: 8px;
+            transform: translateY(-2px);
+        }
+
+        .search {
+            display: inline-block;
+            padding-left: 18px;
+        }
+    }
+}
+
+.selectMedicine {
+    padding: 10px 15px;
+    overflow: hidden;
+
+    h2 {
+        font-size: 14px;
+        line-height: 30px;
+    }
+
+    .item {
+        padding: 0 15px;
+        margin-top: 10px;
+        margin-right: 10px;
+        float: left;
+        text-align: center;
+        background-color: #f5f5f5;
+        line-height: 30px;
+        border-radius: 4px;
+    }
+}

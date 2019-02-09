@@ -1,0 +1,52 @@
+.search {
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    padding: 0 8px;
+    width: 100%;
+    .Sleft {
+        float: left;
+        img {
+            height: 35px;
+        }
+        .location{
+            margin: 0 8px;
+            color: #fff;
+            display: inline-block;
+            transform: translateY(3px);
+        }
+    }
+    .Scenter {
+        float: left;
+        width: 60%;
+        input {
+            padding: 4px;
+            border-radius: 8px;
+            margin: 5px;
+            width: 100%;
+        }
+    }
+    .Sright {
+        float: right;
+        color: #fff;
+        margin-left: 5px;
+        .icon {
+            svg {
+                width: 26px;
+                height: 26px;
+            }
+        }
+        span {
+            display: inline-block;
+            width: 26px;
+            font-size: 12px;
+            line-height: 15px;
+            padding-top: 4px;
+            margin-left: 5px;
+        }
+    }
+}
+
+.active {
+    color: #666;
+}

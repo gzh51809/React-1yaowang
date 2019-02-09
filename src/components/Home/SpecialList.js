@@ -4,7 +4,6 @@ import DragList from "./DragList";
 class SpecialList extends Component {
   render() {
     let { bigPic, list } = this.props.data;
-    console.log(list);
     let datas = [];
     list.map(item =>
       datas.push({

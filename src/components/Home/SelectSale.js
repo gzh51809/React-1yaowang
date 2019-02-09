@@ -10,7 +10,8 @@ class SelectSale extends Component {
     this.state = {
       hour: "00",
       minutes: "00",
-      seconds: "00"
+      seconds: "00",
+      timer:""
     };
     this.countDown = this.countDown.bind(this);
   }

@@ -9,6 +9,7 @@ import AutoPic from "./Home/AutoPic";
 import SelectClassify from "./Home/SelectClassify";
 import SelectSale from "./Home/SelectSale";
 import SpecialList from "./Home/SpecialList";
+import Search from "./Home/Search";
 import ImgURL from "../images/notice.png";
 
 class Home extends Component {
@@ -105,6 +106,7 @@ class Home extends Component {
     } = this.state;
     return (
       <div style={{ backgroundColor: "#eee", marginBottom: "55px" }}>
+        <Search />
         <AutoPic pics={pics} height={149} />
         <SelectClassify selectList={selects} />
         <div className="notice">
@@ -132,7 +134,7 @@ class Home extends Component {
           </div>
         </div>
         <SelectSale goodsList={goodsList1} end={endDate} />
-        <img src={pic} alt="" style={{ height: "130px" }} />
+        <img src={pic} alt="" style={{ width: "100%" }} />
         <div className="bottomList">
           <Icon type="like" className="icon" />
           <span className="titles">精选专题</span>
@@ -143,8 +145,8 @@ class Home extends Component {
           </div>
         </div>
         <div className="bottomTitle">
-            <p>广东壹号大药房连锁有限公司 020-31067218</p>
-            <p>地址:广东省广州市越秀区共和西路1号2层</p>
+          <p>广东壹号大药房连锁有限公司 020-31067218</p>
+          <p>地址:广东省广州市越秀区共和西路1号2层</p>
         </div>
       </div>
     );

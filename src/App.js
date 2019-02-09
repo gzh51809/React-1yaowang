@@ -6,6 +6,7 @@ import Home from "./components/Home";
 import Find from "./components/Find";
 import Cart from "./components/Cart";
 import Mine from "./components/Mine";
+import SearchPage from "./components/SearchPage";
 
 import NavTab from "./components/NavTab";
 class App extends Component {
@@ -39,7 +40,8 @@ class App extends Component {
           icon: "user"
         }
       ],
-      activeIdx: 0
+      activeIdx: 0,
+      show: true
     };
     this.changeTab = this.changeTab.bind(this);
   }
@@ -47,26 +49,33 @@ class App extends Component {
   componentDidMount() {
     let path = this.props.location.pathname;
     let idx = 0;
+    let check = true;
     switch (path) {
       case "/home":
+        check = true;
         idx = 0;
         break;
       case "/find":
+        check = true;
         idx = 1;
         break;
       case "/cart":
+        check = true;
         idx = 2;
         break;
       case "/mine":
+        check = true;
         idx = 3;
         break;
 
       default:
+        check = false;
         break;
     }
     this.setState({
-      activeIdx: idx
-    })
+      activeIdx: idx,
+      show: check
+    });
   }
 
   changeTab(idx) {
@@ -78,18 +87,20 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div style={{ width: "100%", overflow: "hidden" }}>
         <Switch>
           <Route path="/home" component={Home} />
           <Route path="/find" component={Find} />
           <Route path="/cart" component={Cart} />
           <Route path="/mine" component={Mine} />
+          <Route path="/search" component={SearchPage} />
           <Redirect from="/" to="/home" />
         </Switch>
         <NavTab
           navs={this.state.links}
           idx={this.state.activeIdx}
           change={this.changeTab}
+          show={this.state.show}
         />{" "}
       </div>
     );
