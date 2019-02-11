@@ -4,10 +4,10 @@ import { Icon } from "antd";
 
 class NavTab extends Component {
   render() {
-      let {navs, idx, change, show} = this.props
+      let {navs, idx, change} = this.props
     return (
       <div>
-        <ul id="navTab" style={{display:show ? 'block' : 'none'}}>
+        <ul id="navTab">
           {navs.map((item, index) => {
             return (
               <li key={item.path} className={index === idx ? 'active' : ''} onClick={()=>{change(index)}}>

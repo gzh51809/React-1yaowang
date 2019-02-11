@@ -1,0 +1,90 @@
+{
+    "data": {
+        "categoryinfo": [
+            {
+                "content": "catalogId=1001277",
+                "id": 1001277,
+                "icon": "",
+                "name": "男科",
+                "subtitle": "",
+                "thridCategory": [
+                    {
+                        "content": "catalogId=1001278",
+                        "id": 1001278,
+                        "icon": "https://p3.maiyaole.com/img/category/201707/1499406720493.png?6605",
+                        "gotoType": 0,
+                        "name": "阳痿&早泄",
+                        "subtitle": "",
+                        "fatherId": 1001277,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001279",
+                        "id": 1001279,
+                        "icon": "https://p3.maiyaole.com/img/category/201707/1499406727381.png?71744",
+                        "gotoType": 0,
+                        "name": "前列腺炎",
+                        "subtitle": "",
+                        "fatherId": 1001277,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001280",
+                        "id": 1001280,
+                        "icon": "https://p2.maiyaole.com/img/category/201707/1499406735806.png?3013",
+                        "gotoType": 0,
+                        "name": "男性不育症",
+                        "subtitle": "",
+                        "fatherId": 1001277,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001281",
+                        "id": 1001281,
+                        "icon": "https://p1.maiyaole.com/img/category/201707/1499406743332.png?22409",
+                        "gotoType": 0,
+                        "name": "泌尿系统疾病",
+                        "subtitle": "",
+                        "fatherId": 1001277,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001282",
+                        "id": 1001282,
+                        "icon": "https://p1.maiyaole.com/img/category/201707/1499406749817.png?41657",
+                        "gotoType": 0,
+                        "name": "肾病",
+                        "subtitle": "",
+                        "fatherId": 1001277,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001283",
+                        "id": 1001283,
+                        "icon": "https://p2.maiyaole.com/img/category/201707/1499406777035.png?37084",
+                        "gotoType": 0,
+                        "name": "补肾",
+                        "subtitle": "",
+                        "fatherId": 1001277,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    }
+                ],
+                "type": 2,
+                "fatherId": 1001276,
+                "triggerType": 0
+            }
+        ]
+    }
+}

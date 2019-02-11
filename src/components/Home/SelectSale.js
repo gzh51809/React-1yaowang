@@ -47,7 +47,11 @@ class SelectSale extends Component {
       minutes: m,
       seconds: s
     });
-    setTimeout(this.countDown, 1000);
+    this.timer = setTimeout(this.countDown, 1000);
+  }
+
+  componentWillUnmount(){
+    clearInterval(this.timer);
   }
 
   render() {

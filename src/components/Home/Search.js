@@ -7,10 +7,10 @@ import { Link } from "react-router-dom";
 class Search extends Component {
   render() {
     return (
-      <div className="search">
+      <div className="search" style={{backgroundColor: this.props.bg}}>
         <div className="Sleft">
           <img src={ImgURL} alt="logo" />
-          <span className="location">广州</span>
+          <span className={this.props.active + " location"}>广州</span>
         </div>
         <div className="Scenter">
           <Link to={"/search"}>
@@ -18,8 +18,8 @@ class Search extends Component {
           </Link>
         </div>
         <div className="Sright">
-          <Icon type="message" className="icon" />
-          <span>咨询药师</span>
+          <Icon type="message" className={"icon " + this.props.active} />
+          <span className={this.props.active}>咨询药师</span>
         </div>
       </div>
     );

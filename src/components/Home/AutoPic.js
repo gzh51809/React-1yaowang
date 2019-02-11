@@ -9,6 +9,7 @@ class AutoPic extends Component {
         <Carousel
           autoplay={true}
           infinite
+          autoplayInterval={1500}
         >
           {pics.map(val => (
             <a

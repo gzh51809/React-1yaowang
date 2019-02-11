@@ -1,0 +1,162 @@
+{
+    "data": {
+        "categoryinfo": [
+            {
+                "content": "catalogId=1001448",
+                "id": 1001448,
+                "icon": "",
+                "name": "热门类目",
+                "subtitle": "",
+                "thridCategory": [
+                    {
+                        "content": "catalogId=1001467",
+                        "id": 1001467,
+                        "icon": "https://p4.maiyaole.com/img/category/201710/1507438025375.png?35491",
+                        "gotoType": 0,
+                        "name": "感冒",
+                        "subtitle": "",
+                        "fatherId": 1001448,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001468",
+                        "id": 1001468,
+                        "icon": "https://p1.maiyaole.com/img/category/201710/1507438667650.png?58659",
+                        "gotoType": 0,
+                        "name": "哮喘",
+                        "subtitle": "",
+                        "fatherId": 1001448,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001469",
+                        "id": 1001469,
+                        "icon": "https://p1.maiyaole.com/img/category/201710/1507439200335.png?29757",
+                        "gotoType": 0,
+                        "name": "慢性咽炎",
+                        "subtitle": "",
+                        "fatherId": 1001448,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001476",
+                        "id": 1001476,
+                        "icon": "https://p3.maiyaole.com/img/category/201710/1507444079339.png?5668",
+                        "gotoType": 0,
+                        "name": "宝宝腹泻",
+                        "subtitle": "",
+                        "fatherId": 1001448,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001451",
+                        "id": 1001451,
+                        "icon": "https://p2.maiyaole.com/img/category/201710/1507443307062.png?36365",
+                        "gotoType": 0,
+                        "name": "急性肠炎",
+                        "subtitle": "",
+                        "fatherId": 1001448,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001470",
+                        "id": 1001470,
+                        "icon": "https://p4.maiyaole.com/img/category/201803/1521446356089.png?69135",
+                        "gotoType": 0,
+                        "name": "皮肤瘙痒",
+                        "subtitle": "",
+                        "fatherId": 1001448,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001471",
+                        "id": 1001471,
+                        "icon": "https://p1.maiyaole.com/img/category/201710/1507441370559.png?77632",
+                        "gotoType": 0,
+                        "name": "便秘",
+                        "subtitle": "",
+                        "fatherId": 1001448,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001464",
+                        "id": 1001464,
+                        "icon": "https://p4.maiyaole.com/img/category/201708/1502183291108.png?69049",
+                        "gotoType": 0,
+                        "name": "过敏性鼻炎",
+                        "subtitle": "",
+                        "fatherId": 1001448,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001477",
+                        "id": 1001477,
+                        "icon": "https://p4.maiyaole.com/img/category/201710/1507445077743.png?28936",
+                        "gotoType": 0,
+                        "name": "脑梗塞",
+                        "subtitle": "",
+                        "fatherId": 1001448,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001472",
+                        "id": 1001472,
+                        "icon": "https://p2.maiyaole.com/img/category/201710/1507442035652.png?85450",
+                        "gotoType": 0,
+                        "name": "口腔溃疡",
+                        "subtitle": "",
+                        "fatherId": 1001448,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001462",
+                        "id": 1001462,
+                        "icon": "https://p2.maiyaole.com/img/category/201708/1502188411957.png?26162",
+                        "gotoType": 0,
+                        "name": "结膜炎",
+                        "subtitle": "",
+                        "fatherId": 1001448,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001473",
+                        "id": 1001473,
+                        "icon": "https://p4.maiyaole.com/img/category/201710/1507442439170.png?2742",
+                        "gotoType": 0,
+                        "name": "脱发",
+                        "subtitle": "",
+                        "fatherId": 1001448,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    }
+                ],
+                "type": 2,
+                "fatherId": 1001447,
+                "triggerType": 0
+            }
+        ]
+    }
+}

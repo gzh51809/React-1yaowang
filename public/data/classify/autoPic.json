@@ -1,0 +1,25 @@
+{
+    "data": {
+        "categoryBanners": [{
+                "bannerTitle": "寻医问药",
+                "bannerUrl": "https://p2.maiyaole.com/img/mobile/20183/1523412815312106.jpg",
+                "categoryId": 1001276,
+                "content": "https://yzm.111.com.cn/m/yw-twwz/index.html?channel=yiyaoapp",
+                "id": 575,
+                "lastOperator": "",
+                "lastUpdateDate": null,
+                "orderId": 1
+            },
+            {
+                "bannerTitle": "1+会员",
+                "bannerUrl": "https://p3.maiyaole.com/img/mobile/20187/1533090079373242.png",
+                "categoryId": 1001276,
+                "content": "https://m.111.com.cn/yyw/wap/vip/#/index?forceRemote=1",
+                "id": 576,
+                "lastOperator": "",
+                "lastUpdateDate": null,
+                "orderId": 2
+            }
+        ]
+    }
+}
