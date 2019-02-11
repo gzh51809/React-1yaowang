@@ -1,0 +1,174 @@
+{
+    "data": {
+        "categoryinfo": [
+            {
+                "content": "catalogId=1001304",
+                "id": 1001304,
+                "icon": "",
+                "name": "心脑血管科",
+                "subtitle": "",
+                "thridCategory": [
+                    {
+                        "content": "catalogId=1001305",
+                        "id": 1001305,
+                        "icon": "https://p4.maiyaole.com/img/category/201707/1499407457411.png?20195",
+                        "gotoType": 0,
+                        "name": "高血压",
+                        "subtitle": "",
+                        "fatherId": 1001304,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001306",
+                        "id": 1001306,
+                        "icon": "https://p2.maiyaole.com/img/category/201707/1499407466368.png?51602",
+                        "gotoType": 0,
+                        "name": "冠心病",
+                        "subtitle": "",
+                        "fatherId": 1001304,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001307",
+                        "id": 1001307,
+                        "icon": "https://p1.maiyaole.com/img/category/201707/1499407474437.png?64317",
+                        "gotoType": 0,
+                        "name": "脑血管病",
+                        "subtitle": "",
+                        "fatherId": 1001304,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001308",
+                        "id": 1001308,
+                        "icon": "https://p1.maiyaole.com/img/category/201707/1499407483920.png?68864",
+                        "gotoType": 0,
+                        "name": "高血脂",
+                        "subtitle": "",
+                        "fatherId": 1001304,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001309",
+                        "id": 1001309,
+                        "icon": "https://p1.maiyaole.com/img/category/201707/1499407492862.png?42515",
+                        "gotoType": 0,
+                        "name": "心绞痛",
+                        "subtitle": "",
+                        "fatherId": 1001304,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001310",
+                        "id": 1001310,
+                        "icon": "https://p2.maiyaole.com/img/category/201707/1499407522935.png?87349",
+                        "gotoType": 0,
+                        "name": "血液疾病",
+                        "subtitle": "",
+                        "fatherId": 1001304,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001311",
+                        "id": 1001311,
+                        "icon": "https://p2.maiyaole.com/img/category/201707/1499407549823.png?31909",
+                        "gotoType": 0,
+                        "name": "心力衰竭",
+                        "subtitle": "",
+                        "fatherId": 1001304,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001312",
+                        "id": 1001312,
+                        "icon": "https://p4.maiyaole.com/img/category/201707/1499407570045.png?91530",
+                        "gotoType": 0,
+                        "name": "静脉曲张",
+                        "subtitle": "",
+                        "fatherId": 1001304,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001313",
+                        "id": 1001313,
+                        "icon": "https://p1.maiyaole.com/img/category/201707/1499407577341.png?91744",
+                        "gotoType": 0,
+                        "name": "心律失常",
+                        "subtitle": "",
+                        "fatherId": 1001304,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001314",
+                        "id": 1001314,
+                        "icon": "https://p2.maiyaole.com/img/category/201707/1499407635703.png?93095",
+                        "gotoType": 0,
+                        "name": "动脉硬化",
+                        "subtitle": "",
+                        "fatherId": 1001304,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001315",
+                        "id": 1001315,
+                        "icon": "https://p2.maiyaole.com/img/category/201707/1499407664852.png?37170",
+                        "gotoType": 0,
+                        "name": "心肌炎",
+                        "subtitle": "",
+                        "fatherId": 1001304,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001316",
+                        "id": 1001316,
+                        "icon": "https://p1.maiyaole.com/img/category/201707/1499407672999.png?39223",
+                        "gotoType": 0,
+                        "name": "低血压",
+                        "subtitle": "",
+                        "fatherId": 1001304,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001317",
+                        "id": 1001317,
+                        "icon": "https://p1.maiyaole.com/img/category/201707/1499407682916.png?41798",
+                        "gotoType": 0,
+                        "name": "肺动脉高压",
+                        "subtitle": "",
+                        "fatherId": 1001304,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    }
+                ],
+                "type": 2,
+                "fatherId": 1001303,
+                "triggerType": 0
+            }
+        ]
+    }
+}

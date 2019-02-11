@@ -1,0 +1,126 @@
+{
+    "data": {
+        "categoryinfo": [
+            {
+                "content": "catalogId=1001319",
+                "id": 1001319,
+                "icon": "",
+                "name": "肝胆科",
+                "subtitle": "",
+                "thridCategory": [
+                    {
+                        "content": "catalogId=1001320",
+                        "id": 1001320,
+                        "icon": "https://p3.maiyaole.com/img/category/201707/1499407709931.png?73443",
+                        "gotoType": 0,
+                        "name": "乙肝",
+                        "subtitle": "",
+                        "fatherId": 1001319,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001321",
+                        "id": 1001321,
+                        "icon": "https://p4.maiyaole.com/img/category/201707/1499407715433.png?58667",
+                        "gotoType": 0,
+                        "name": "脂肪肝",
+                        "subtitle": "",
+                        "fatherId": 1001319,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001322",
+                        "id": 1001322,
+                        "icon": "https://p1.maiyaole.com/img/category/201707/1499407730157.png?60059",
+                        "gotoType": 0,
+                        "name": "酒精肝",
+                        "subtitle": "",
+                        "fatherId": 1001319,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001323",
+                        "id": 1001323,
+                        "icon": "https://p4.maiyaole.com/img/category/201707/1499407866542.png?46038",
+                        "gotoType": 0,
+                        "name": "肝纤维化肝硬化",
+                        "subtitle": "",
+                        "fatherId": 1001319,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001324",
+                        "id": 1001324,
+                        "icon": "https://p1.maiyaole.com/img/category/201707/1499407876066.png?40013",
+                        "gotoType": 0,
+                        "name": "肝性脑病",
+                        "subtitle": "",
+                        "fatherId": 1001319,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001325",
+                        "id": 1001325,
+                        "icon": "https://p1.maiyaole.com/img/category/201707/1499407883482.png?54784",
+                        "gotoType": 0,
+                        "name": "胆结石",
+                        "subtitle": "",
+                        "fatherId": 1001319,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001326",
+                        "id": 1001326,
+                        "icon": "https://p3.maiyaole.com/img/category/201707/1499407910277.png?90336",
+                        "gotoType": 0,
+                        "name": "胆道疾病",
+                        "subtitle": "",
+                        "fatherId": 1001319,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001327",
+                        "id": 1001327,
+                        "icon": "https://p4.maiyaole.com/img/category/201707/1499407919879.png?12060",
+                        "gotoType": 0,
+                        "name": "保肝护肝",
+                        "subtitle": "",
+                        "fatherId": 1001319,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001329",
+                        "id": 1001329,
+                        "icon": "https://p4.maiyaole.com/img/category/201707/1499407943078.png?42534",
+                        "gotoType": 0,
+                        "name": "免疫调节",
+                        "subtitle": "",
+                        "fatherId": 1001319,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    }
+                ],
+                "type": 2,
+                "fatherId": 1001318,
+                "triggerType": 0
+            }
+        ]
+    }
+}

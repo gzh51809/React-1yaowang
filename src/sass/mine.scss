@@ -1,0 +1,59 @@
+.mTop {
+  height: 114px;
+  background: linear-gradient(#908bff, #9bb3ff);
+}
+.mBottom {
+    margin: 10px;
+    background-color: #fff;
+    margin-top: -65px;
+    border-radius: 8px;
+    .myTop {
+        width: 100%;
+        padding: 12px;
+        border-bottom: 1px solid #ccc;
+        .login {
+            overflow: hidden;
+            img {
+                width: 50px;
+                height: 50px;
+                float: left;
+            }
+            p {
+                float: left;
+                margin-left: 8px;
+                line-height: 50px;
+            }
+        }
+        .money {
+            overflow: hidden;
+            width: 100%;
+            .moneyLeft {
+                width: 50%;
+                float: left;
+                span {
+                    text-align: center;
+                    display: block;
+                    &:first-child {
+                        font-weight: bold;
+                        font-size: 20px;
+                    }
+                }
+            }
+            .moneyRight {
+                width: 50%;
+                float: left;
+                span {
+                    text-align: center;
+                    display: block;
+                    &:first-child {
+                        font-weight: bold;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+    .myBottom {
+        margin-bottom: 50px;
+    }
+}

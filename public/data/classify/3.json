@@ -1,0 +1,222 @@
+{
+    "data": {
+        "categoryinfo": [
+            {
+                "content": "catalogId=1001285",
+                "id": 1001285,
+                "icon": "",
+                "name": "神经科",
+                "subtitle": "",
+                "thridCategory": [
+                    {
+                        "content": "catalogId=1001286",
+                        "id": 1001286,
+                        "icon": "https://p3.maiyaole.com/img/category/201707/1499406923747.png?57616",
+                        "gotoType": 0,
+                        "name": "抑郁症",
+                        "subtitle": "",
+                        "fatherId": 1001285,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001287",
+                        "id": 1001287,
+                        "icon": "https://p1.maiyaole.com/img/category/201707/1499406929133.png?10914",
+                        "gotoType": 0,
+                        "name": "癫痫",
+                        "subtitle": "",
+                        "fatherId": 1001285,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001288",
+                        "id": 1001288,
+                        "icon": "https://p4.maiyaole.com/img/category/201707/1499406934561.png?47576",
+                        "gotoType": 0,
+                        "name": "精神分裂症",
+                        "subtitle": "",
+                        "fatherId": 1001285,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001289",
+                        "id": 1001289,
+                        "icon": "https://p3.maiyaole.com/img/category/201707/1499406939759.png?40250",
+                        "gotoType": 0,
+                        "name": "帕金森",
+                        "subtitle": "",
+                        "fatherId": 1001285,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001290",
+                        "id": 1001290,
+                        "icon": "https://p3.maiyaole.com/img/category/201707/1499406946956.png?34382",
+                        "gotoType": 0,
+                        "name": "老年性痴呆",
+                        "subtitle": "",
+                        "fatherId": 1001285,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001291",
+                        "id": 1001291,
+                        "icon": "https://p4.maiyaole.com/img/category/201707/1499406954404.png?12278",
+                        "gotoType": 0,
+                        "name": "中风",
+                        "subtitle": "",
+                        "fatherId": 1001285,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001292",
+                        "id": 1001292,
+                        "icon": "https://p2.maiyaole.com/img/category/201707/1499406962854.png?10263",
+                        "gotoType": 0,
+                        "name": "多动症",
+                        "subtitle": "",
+                        "fatherId": 1001285,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001293",
+                        "id": 1001293,
+                        "icon": "https://p2.maiyaole.com/img/category/201707/1499406978721.png?38938",
+                        "gotoType": 0,
+                        "name": "神经性疼痛",
+                        "subtitle": "",
+                        "fatherId": 1001285,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001294",
+                        "id": 1001294,
+                        "icon": "https://p2.maiyaole.com/img/category/201707/1499406987371.png?54466",
+                        "gotoType": 0,
+                        "name": "神经损伤",
+                        "subtitle": "",
+                        "fatherId": 1001285,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001295",
+                        "id": 1001295,
+                        "icon": "https://p3.maiyaole.com/img/category/201707/1499406997275.png?98153",
+                        "gotoType": 0,
+                        "name": "失眠",
+                        "subtitle": "",
+                        "fatherId": 1001285,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001296",
+                        "id": 1001296,
+                        "icon": "https://p3.maiyaole.com/img/category/201707/1499407005057.png?37979",
+                        "gotoType": 0,
+                        "name": "头痛偏头痛",
+                        "subtitle": "",
+                        "fatherId": 1001285,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001297",
+                        "id": 1001297,
+                        "icon": "https://p4.maiyaole.com/img/category/201707/1499407010962.png?188",
+                        "gotoType": 0,
+                        "name": "运动神经元病",
+                        "subtitle": "",
+                        "fatherId": 1001285,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001298",
+                        "id": 1001298,
+                        "icon": "https://p2.maiyaole.com/img/category/201707/1499407020675.png?26581",
+                        "gotoType": 0,
+                        "name": "焦虑症",
+                        "subtitle": "",
+                        "fatherId": 1001285,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001299",
+                        "id": 1001299,
+                        "icon": "https://p2.maiyaole.com/img/category/201707/1499407026229.png?80229",
+                        "gotoType": 0,
+                        "name": "戒烟",
+                        "subtitle": "",
+                        "fatherId": 1001285,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001300",
+                        "id": 1001300,
+                        "icon": "https://p1.maiyaole.com/img/category/201707/1499407039792.png?66343",
+                        "gotoType": 0,
+                        "name": "神经衰弱",
+                        "subtitle": "",
+                        "fatherId": 1001285,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001301",
+                        "id": 1001301,
+                        "icon": "https://p1.maiyaole.com/img/category/201707/1499407049202.png?33046",
+                        "gotoType": 0,
+                        "name": "周围神经病变",
+                        "subtitle": "",
+                        "fatherId": 1001285,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    },
+                    {
+                        "content": "catalogId=1001302",
+                        "id": 1001302,
+                        "icon": "https://p3.maiyaole.com/img/category/201707/1499407058812.png?11245",
+                        "gotoType": 0,
+                        "name": "面瘫",
+                        "subtitle": "",
+                        "fatherId": 1001285,
+                        "type": 3,
+                        "triggerType": 0,
+                        "bannerStatus": 0
+                    }
+                ],
+                "type": 2,
+                "fatherId": 1001284,
+                "triggerType": 0
+            }
+        ]
+    }
+}
