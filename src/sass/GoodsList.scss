@@ -1,0 +1,45 @@
+.goodsList {
+    overflow: hidden;
+    width: 100%;
+
+    li {
+        height: 140px;
+        border-bottom: 1px solid #eee;
+        padding: 8px 0;
+        width: 100%;
+        .Gleft {
+            float: left;
+
+            img {
+                width: 80px;
+                height: 80px;
+                margin: 20px;
+            }
+        }
+
+        .Gright {
+            float: left;
+        width: 64%;
+            h2 {
+                font-size: 14px;
+                font-weight: normal;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                margin-bottom: 50px;
+            }
+            .price {
+                color: #f66;
+                span {
+                    font-size: 20px;
+                }
+            }
+            .user {
+                font-size: 12px;
+                span {
+                    margin-right: 14px;
+                }
+            }
+        }
+    }
+}

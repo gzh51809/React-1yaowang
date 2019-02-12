@@ -7,6 +7,7 @@ import Find from "./components/Find";
 import Cart from "./components/Cart";
 import Mine from "./components/Mine";
 import SearchPage from "./components/SearchPage";
+import List from "./components/List"
 
 import NavTab from "./components/NavTab";
 class App extends Component {
@@ -94,6 +95,7 @@ class App extends Component {
           <Route path="/cart" component={Cart} />
           <Route path="/mine" component={Mine} />
           <Route path="/search" component={SearchPage} />
+          <Route path="/list/:id" component={List} />
           <Redirect from="/" to="/home" />
         </Switch>
         <NavTab

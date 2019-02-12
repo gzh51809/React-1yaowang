@@ -4,6 +4,18 @@ import myImg from "../images/MineIcon/my.png";
 
 import MineItem from "./Mine/MineItem";
 
+import a1 from '../images/MineIcon/01.png'
+import a2 from '../images/MineIcon/02.png'
+import a3 from '../images/MineIcon/03.png'
+import a4 from '../images/MineIcon/04.png'
+import a5 from '../images/MineIcon/05.png'
+import b1 from '../images/MineIcon/06.png'
+import b2 from '../images/MineIcon/07.png'
+import b3 from '../images/MineIcon/08.png'
+import b4 from '../images/MineIcon/09.png'
+import c1 from '../images/MineIcon/10.png'
+import c2 from '../images/MineIcon/11.png'
+
 class Mine extends Component {
   constructor() {
     super();
@@ -15,23 +27,23 @@ class Mine extends Component {
           list: [
             {
               title: "待付款",
-              pic: "01.jpg"
+              pic: a1
             },
             {
               title: "待发货",
-              pic: "02.jpg"
+              pic: a2
             },
             {
               title: "待收货",
-              pic: "03.jpg"
+              pic: a3
             },
             {
               title: "待评价",
-              pic: "04.jpg"
+              pic: a4
             },
             {
               title: "退换货",
-              pic: "05.jpg"
+              pic: a5
             }
           ]
         },
@@ -40,19 +52,19 @@ class Mine extends Component {
           list: [
             {
               title: "健康档案",
-              pic: "06.jpg"
+              pic: b1
             },
             {
               title: "看过买过",
-              pic: "07.jpg"
+              pic: b2
             },
             {
               title: "我的收藏",
-              pic: "08.jpg"
+              pic: b3
             },
             {
               title: "咨询中心",
-              pic: "09.jpg"
+              pic: b4
             }
           ]
         },
@@ -61,11 +73,11 @@ class Mine extends Component {
           list: [
             {
               title: "领券中心",
-              pic: "10.jpg"
+              pic: c1
             },
             {
               title: "领奖励金",
-              pic: "11.jpg"
+              pic: c2
             }
           ]
         }
@@ -77,7 +89,12 @@ class Mine extends Component {
     let { data } = this.state;
     return (
       <div>
-        <div className="mTop" />
+        <div className="mTop" >
+          <ul>
+            <li className="fl">广州</li>
+            <li className="fr">设置</li>
+          </ul>
+        </div>
         <div className="mBottom">
           <div className="myTop">
             <div className="login">

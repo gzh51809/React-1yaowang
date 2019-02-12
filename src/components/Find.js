@@ -20,6 +20,7 @@ class Find extends Component {
     };
 
     this.changeTab = this.changeTab.bind(this);
+    this.jumpList = this.jumpList.bind(this);
   }
 
   componentWillMount() {
@@ -111,6 +112,10 @@ class Find extends Component {
     }
   }
 
+  jumpList(str){
+    this.props.history.push("/List/" + str);
+  }
+
   render() {
     let { list, act, imgList, title, selectList } = this.state;
     return (
@@ -125,7 +130,7 @@ class Find extends Component {
           </div>
           <div className="frBottom">
             <h4>{title}</h4>
-            <RowList list={selectList} />
+            <RowList list={selectList} jump={this.jumpList} />
           </div>
         </div>
       </div>

@@ -1,0 +1,48 @@
+.ListSearch {
+    padding: 0 10px;
+    overflow: hidden;
+    margin: 0;
+    height: 40px;
+    background: #f9f9f9;
+    li {
+        float: left;
+    }
+    .left {
+        border: 1px solid #000;
+        width: 16px;
+        height: 16px;
+        border-bottom-color: #f9f9f9;
+        border-right-color: #f9f9f9;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%) rotateZ(-45deg);
+        margin-right: 20px;
+        margin-left: 12px;
+    }
+    .center {
+        background-color: #ebebeb;
+        height: 30px;
+        width: 240px;
+        margin: 5px;
+        border-radius: 18px;
+        padding-left: 8px;
+        padding-top: 3px;
+        .icon {
+            svg {
+                width: 24px;
+                height: 24px;
+                color: #f9f9f9;
+            }
+        }
+    }
+    .right {
+        float: right;
+        margin-right: 12px;
+        padding-top: 8px;
+        svg {
+            width: 24px;
+            height: 24px;
+            color: #666;
+        }
+    }
+}

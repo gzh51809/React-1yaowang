@@ -1,0 +1,22 @@
+.serveName {
+    font-size: 18px;
+    font-weight: normal;
+}
+.myServe {
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    li {
+        float: left;
+        width: 20%;
+        img {
+            width: 22px;
+            height: 22px;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 8px;
+        }
+        p {
+            text-align: center;
+        }
+    }
+}
